@@ -1,0 +1,112 @@
+.menu_class.menu_page{
+    .light_color();
+    .menu_page();
+}
+.light_color{
+    /*浅色系*/
+    @color: #000000;
+    @iconColor: #929497;
+    @activeColor: #467CF3;
+    @background: #ffffff;
+    @activeBackground: #F5F7FA;
+    @iconBackground: #F5F7FA;
+    @borderColor: #F2F6FC;
+    @barColor: #C3C4CA;
+}
+.dark_color{
+    /*深色系*/
+    @color: #ffffff;
+    @iconColor: #ffffff;
+    @activeColor: #00f7c7;
+    @background: #14202d;
+    @activeBackground: #203449;
+    @iconBackground: #000000;
+    @borderColor: #3f4c58;
+    @barColor: #8c8c8c;
+}
+
+/*深色系*/
+@color: #ffffff;
+@iconColor: #ffffff;
+@activeColor: #00f7c7;
+@background: #14202d;
+@activeBackground: #203449;
+@iconBackground: #000000;
+@borderColor: #3f4c58;
+@barColor: #8c8c8c;
+.menu_page{
+    background-color: @background !important;
+    .el-tree.el-tree--highlight-current{
+        color: @color !important;
+        .el-tree-node {
+            .el-tree-node__content {
+                background-color: @background !important;
+                &:hover {
+                    background: @activeBackground !important;
+                    color: @activeColor !important;
+                }
+
+            }
+        }
+        .el-tree-node.is-current{
+            >.el-tree-node__content{
+                background: @activeBackground !important;
+                color: @activeColor !important;
+                border-left-color: @activeColor;
+                a{
+                    color: @activeColor !important;
+                }
+            }
+        }
+    }
+
+    .drag_bar{
+        background: @borderColor;
+        border-color: @borderColor;
+        .stripe{
+            background-image: linear-gradient(@barColor 40%,@borderColor 60%);
+        }
+    }
+
+    .el-menu-vertical-demo.classClose{
+        background-color:@background !important;
+        .el-menu-item{
+            color: @color !important;
+            background: @background !important;
+            &.is-active {
+                color: @activeColor !important;
+                border-left-color: @activeColor !important;
+                background: @activeBackground !important;
+                .colorW{
+                    color: @activeColor !important;
+                }
+            }
+            &:focus, &:hover{
+                color: @activeColor !important;
+                background: @activeBackground !important;
+                .colorW{
+                    color: @activeColor !important;
+                }
+            }
+            .colorW{
+                color: @iconColor !important;
+            }
+        }
+    }
+    .el-menu-vertical-demo.classOpen{
+        .el-menu-vertical-demo.classClose();
+        .el-menu-item{
+            .iconfont{
+                background-color: @iconBackground !important;
+            }
+            &:hover,&.is-active {
+                background: transparent !important;
+            }
+        }
+    }
+    .menu_shrink{
+        background: @iconBackground !important;
+        color: @activeColor !important;
+    }
+}
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title></title>
+        <style>
+            html,
+            body {
+                height: 100%;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+            .iframe-origine {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                transform: translateY(-100%) rotate(90deg);
+                transform-origin: bottom left;
+            }
+        </style>
+        <script>
+            function iframeLoad() {
+                document.title = document.getElementById('myIframe').contentDocument.title;
+
+                if (!document.title || window.titleNum > 5) {
+                    window.titleNum ++;
+                    setTimeout(iframeLoad, 200);
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <iframe id="myIframe" class="iframe-origine" border="0" frameborder="no" onload="window.titleNum=0;iframeLoad()"></iframe>
+    </body>
+    <script>
+        var myIfa = document.getElementById('myIframe');
+        function doDirection() {
+            let isMobile = navigator.userAgent.match(
+                /(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i
+            );
+
+            // 竖屏时，强制横屏显示
+            if (isMobile && window.innerWidth * 1.2 < window.innerHeight) {
+                myIfa.className = 'iframe-origine';
+                myIfa.style.height = document.body.getBoundingClientRect().width + 'px';
+                myIfa.style.width = document.body.getBoundingClientRect().height + 'px';
+            } else {
+                // 横屏时默认显示即可
+                myIfa.className = '';
+                myIfa.style.height = document.body.getBoundingClientRect().height + 'px';
+                myIfa.style.width = document.body.getBoundingClientRect().width + 'px';
+            }
+        }
+        doDirection();
+
+        myIfa.src = window.location.href.replace('mobile.html', 'view.html');
+        window.onresize = function() {
+            doDirection();
+        }
+
+        window.addEventListener('deviceorientation', function(event) {
+            doDirection();
+        });
+    </script>
+</html>

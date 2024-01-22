@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>跳转页</title>
+    <script>
+        if (window.location.hash) {
+            var url =  decodeURI(window.location.hash.substring(1));
+            var hashindex = url.indexOf('#');
+            if (hashindex > -1) {
+                var hasQuery = url.indexOf('?');
+                url = url.replace('#',
+                    (hasQuery > -1 && hasQuery < hashindex ? '&' : '?') + Math.random() + '#');
+            }
+
+            window.location.href = url;
+        } else {
+            window.location.href = "about:blank";
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
