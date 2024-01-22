@@ -1,0 +1,106 @@
+body,
+html {
+	margin:0;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    clear: both;
+    color: #303133;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 34px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+p {
+	margin:0;
+	color: #616266;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.6em;
+}
+
+img {
+	display: block;
+    border: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ff8a73;
+}
+
+/*1. Public Style*/
+.flex {display:flex; display:-webkit-flex;}
+.jc {justify-content: center;}
+.jbw {justify-content: space-between;}
+.alc {align-items: center;}
+
+.mt10 {margin-top:10px;}
+.mtb10 {margin:10px 0;}
+
+.fw500 {font-weight:500;}
+/*End*/
+
+/*2. Default Style*/
+.layout {margin:0 auto 10px; width:70%; min-width:1000px;}
+.container {padding:10px 0;}
+.indent {margin-bottom:5px; text-indent: 2em; color:#303133; font-size:16px; font-weight: 400; line-height: 1.6;}
+.img {border:1px solid #EDEDED; border-radius:4px; overflow:hidden;}
+.img img {margin:0 auto;}
+/*End*/
+
+/*3. Header*/
+.header {padding:20px 0; border-bottom:1px solid #C0C4CC;}
+.header .helplogo {margin-right:8px; width:32px; height:32px; background:#EAF0FF; border-radius:50%; text-align:center;}
+.header .helplogo i {line-height:32px; color:#5E8DFF;}
+.header h4 {font-weight:600;}
+/*End*/
+
+/*title1*/
+.title {margin-bottom:10px; display:flex; display:-webkit-flex; align-items: center;}
+.title .subtit {padding-right:15px; display:flex; display:-webkit-flex; flex:0 0 auto; align-items: center; border-right:1px solid #C0C4CC; line-height:1;}
+.title .subtit i {margin-right:10px; color:#5E8DFF;}
+.title .subtit h5 {flex:0 0 auto;}
+.title .cont p {padding-left:15px;}
+/*End*/
+
+/*title2*/
+.subtit2 {margin-bottom:12px; padding-right:15px; display:flex; display:-webkit-flex; flex:0 0 auto; align-items: center; line-height:1;}
+.subtit2 i {margin-right:10px; color:#5E8DFF;}
+.subtit2 h5 {flex:0 0 auto;}
+.subtit2 + .cont {margin-bottom:10px;}
+.subtit2 + .cont p {line-height:1.8;}
+/*End*/

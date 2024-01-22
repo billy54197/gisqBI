@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdatavisual=self.webpackChunkdatavisual||[]).push([[17828],{317828:function(v,e,a){a.r(e),a.d(e,{default:function(){return c}});var n=function(){var d=this,o=d._self._c;return o("div")},t=[],s={name:"close-page-data"},l=s,r=a(768141),u=(0,r.Z)(l,n,t,!1,null,"547a4e92",null),c=u.exports}}]);

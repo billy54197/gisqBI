@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdatavisual=self.webpackChunkdatavisual||[]).push([[27143],{527143:function(_,e,a){a.r(e),a.d(e,{default:function(){return o}});var t=function(){var p=this,v=p._self._c;return v("div")},n=[],s={name:"OlBaseMapStyle",props:["currentWidget"],data(){return{}}},l=s,r=a(768141),u=(0,r.Z)(l,t,n,!1,null,"f5ab4e82",null),o=u.exports}}]);

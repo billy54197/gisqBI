@@ -1,0 +1,81 @@
+@media screen {
+  html {
+    background: #f4f4f4;
+    min-height: 100%;
+  }
+}
+body {
+  font-family: SimSun;
+  position: relative;
+  z-index: -2;
+}
+@media screen {
+  body {
+    background-color: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    margin: 1rem auto 0;
+    width: 21cm;
+    min-height: 29.7cm;
+    padding: 2.54cm 3.18cm;
+  }
+}
+table {
+  border-collapse: collapse;
+  word-wrap: break-word;
+  table-layout: fixed;
+}
+table:not([cellpadding]) th,
+table:not([cellpadding]) td {
+  padding: 0.4rem;
+}
+table[border]:not([border="0"]):not([style*="border-width"]) th,
+table[border]:not([border="0"]):not([style*="border-width"]) td {
+  border-width: 1px;
+}
+table[border]:not([border="0"]):not([style*="border-style"]) th,
+table[border]:not([border="0"]):not([style*="border-style"]) td {
+  border-style: solid;
+}
+table[border]:not([border="0"]):not([style*="border-color"]) th,
+table[border]:not([border="0"]):not([style*="border-color"]) td {
+  border-color: #ccc;
+}
+figure figcaption {
+  color: #999;
+  margin-top: 0.25rem;
+  text-align: center;
+}
+hr {
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 1px 0 0 0;
+}
+.mce-content-body:not([dir="rtl"]) blockquote {
+  border-left: 2px solid #ccc;
+  margin-left: 1.5rem;
+  padding-left: 1rem;
+}
+.mce-content-body[dir="rtl"] blockquote {
+  border-right: 2px solid #ccc;
+  margin-right: 1.5rem;
+  padding-right: 1rem;
+}
+.mceNonEditable:active #signature {
+  outline: 1px solid rgb(248, 6, 6);
+}
+.mceNonEditable.signature {
+  display: inline-block;
+}
+.position_absolute {
+  position: absolute;
+  z-index: -1;
+}
+.left_top {
+  top: 0;
+  left: 0;
+}
+.right_top {
+  top: 0;
+  right: 0;
+}

@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "iconpoint",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4490" } },
+"features": [
+{ "type": "Feature", "properties": { "Key": "FID", "Value": "0" }, "geometry": { "type": "Point", "coordinates": [ 120.570813697097719, 30.599520021203983 ] } },
+{ "type": "Feature", "properties": { "Key": "FID", "Value": "3" }, "geometry": { "type": "Point", "coordinates": [ 120.592878858883466, 30.643132218627763 ] } },
+{ "type": "Feature", "properties": { "Key": "FID", "Value": "6" }, "geometry": { "type": "Point", "coordinates": [ 120.591096398549979, 30.611971580883083 ] } }
+]
+}

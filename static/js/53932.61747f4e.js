@@ -1,0 +1,1 @@
+(self.webpackChunkdatavisual=self.webpackChunkdatavisual||[]).push([[53932,23497],{23497:function(t,f,a){var e=a(605264),s=a(234539),u=a(416347),l=a(782148).J;e&&(/./g.flags!="g"||l)&&s.f(RegExp.prototype,"flags",{configurable:!0,get:u})}}]);

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <!-- Meta Tags -->
+  <meta charset="utf-8" />
+  <!-- Page Title -->
+  <title>场景和页面 - 帮助文档</title>
+  <!-- Favicon Icon -->
+  <!-- <link rel="icon" href="assets/img/favicon.png" /> -->
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/iconfont/iconfont.css">
+</head>
+
+<body>
+	<div class="layout">
+		<header class="flex alc header">
+			<div class="helplogo"><i class="iconfont bi_help2"></i></div>
+			<h4>帮助文档</h4>
+		</header>
+		<div class="main mt10">
+			<!-- Start Hero Slider -->
+			<!-- End Hero Slider -->
+			<!-- Start Icon Box -->
+			<section class="container">
+			  <p class="indent">由于近年来大屏越来越复杂，经常作为门户来使用，包含多个不同页面，目前项目组采用多个 iframe 嵌入的方式来实现，但是页面之间的交互变的较为复杂；如果在一个看板内配置全部内容，则组件会超出上限，引起性能问题，为了解决此类大屏的配置问题和性能，V1.2.3.9 版本引入了场景和页面的概念。</p>
+			  <div class="img"><img src="assets/img/help0.png"/></div>
+			</section>
+
+			<h5 class="indent">如果要配置上图的效果，把有交互的页面加入到同一个场景中；系统名称，单选框组（配成上方按钮样式），右侧温度等公共元素可以配置在一个页面中放在层级最上方，作为母版；切换菜单显示的不同内容，可以分别配在不同的页面中，最后配置单选框组-显示页面事件来实现切换效果。</h5>
+
+			<section class="container">
+			  <div class="title">
+				  <div class="subtit">
+					  <i class="iconfont bi_help2"></i>
+					  <h5>场景之间相互隔离</h5>
+				  </div>
+				  <div class="cont"><p>场景之间相互隔离，只有在同一个场景下的页面里的组件，才可以配置交互，在配接收事件选组件的时候，要先选页面</p></div>
+			  </div>
+			  <div class="img"><img src="assets/img/help1.png"/></div>
+			</section>
+
+			<section class="container">
+			  <div class="title">
+				  <div class="subtit">
+					  <i class="iconfont bi_help2"></i>
+					  <h5>场景初始加载</h5>
+				  </div>
+				  <div class="cont"><p>基于性能考虑，初始加载的场景只能有一个</p></div>
+			  </div>
+			</section>
+
+			<section class="container">
+			  <div class="title">
+				  <div class="subtit">
+					  <i class="iconfont bi_help2"></i>
+					  <h5>更新</h5>
+				  </div>
+				  <div class="cont"><p>更新之前配好的看板，会自动加入到场景 1 页面 1 中</p></div>
+			  </div>
+			</section>
+
+			<section class="container">
+			  <div class="title">
+				  <div class="subtit">
+					  <i class="iconfont bi_help2"></i>
+					  <h5>场景删除</h5>
+				  </div>
+				  <div class="cont"><p>场景删除会把场景下的页面和组件全部删除，无法恢复</p></div>
+			  </div>
+			  <div class="img"><img src="assets/img/help2.png"/></div>
+			</section>
+
+			<section class="container">
+				  <div class="subtit2">
+					  <i class="iconfont bi_help2"></i>
+					  <h5>页面层级</h5>
+				  </div>
+				  <div class="cont">
+					  <p>场景里的页面有层级关系，上面的页面会遮盖下面的页面，所以鼠标无法点击到重叠页面中处于下方的页面；点击页面名称前面的图标拖拽，可以调换页面的层级关系</p>
+					  <p>上图城市综合管理系统里，系统名称，菜单和天气在每个页面都会出现，可以配置在一个页面里，类似于 PPT 的母版，这样就可以不用在每个页面里重复配置了</p>
+				  </div>
+			  <div class="img"><img src="assets/img/help3.png"/></div>
+			</section>
+
+			<section class="container">
+			  <div class="title">
+				  <div class="subtit">
+					  <i class="iconfont bi_help2"></i>
+					  <h5>页面初始加载</h5>
+				  </div>
+				  <div class="cont"><p>和最初页面没有关联的页面可以关闭初始加载，提高性能</p></div>
+			  </div>
+			</section>
+
+			<section class="container">
+			  <div class="title">
+				  <div class="subtit">
+					  <i class="iconfont bi_help2"></i>
+					  <h5>页面的初始可见</h5>
+				  </div>
+				  <div class="cont"><p>最初加载不需要显示的页面，可以关闭初始可见，提高性能</p></div>
+			  </div>
+			</section>
+
+			<section class="container">
+			  <div class="title">
+				  <div class="subtit">
+					  <i class="iconfont bi_help2"></i>
+					  <h5>看板引入场景和页面</h5>
+				  </div>
+				  <div class="cont"><p>看板里的各个资源统计引入场景和页面</p></div>
+			  </div>
+			  <div class="img"><img src="assets/img/help4.png"/></div>
+			</section>
+
+			<section class="container">
+			  <div class="title">
+				  <div class="subtit">
+					  <i class="iconfont bi_help2"></i>
+					  <h5>资源引入场景和页面</h5>
+				  </div>
+				  <div class="cont"><p>各个资源的使用情况引入场景和页面</p></div>
+			  </div>
+			  <div class="img"><img src="assets/img/help5.png"/></div>
+			</section>
+
+			<section class="container">
+			  <div class="title">
+				  <div class="subtit">
+					  <i class="iconfont bi_help2"></i>
+					  <h5>工具栏</h5>
+				  </div>
+				  <div class="cont"><p>层级前置，层级后置，置顶置底、删除、清空按钮都是基于当前页面的；存为模板，导出，预览，保存，发布按钮都是基于整个看板的</p></div>
+			  </div>
+			</section>
+
+			<section class="container">
+			  <div class="title">
+				  <div class="subtit">
+					  <i class="iconfont bi_help2"></i>
+					  <h5>快速切换场景和页面</h5>
+				  </div>
+				  <div class="cont"><p>在设计器下方，可以快速切换场景和页面</p></div>
+			  </div>
+			  <div class="img"><img src="assets/img/help6.png"/></div>
+			</section>
+
+			<section class="container">
+			  <div class="title">
+				  <div class="subtit">
+					  <i class="iconfont bi_help2"></i>
+					  <h5>页面事件</h5>
+				  </div>
+				  <div class="cont"><p>通用标题和单选框组新增显示页面事件，实现点击不同的内容，显示不同的页面功能</p></div>
+			  </div>
+			  <div class="img"><img src="assets/img/help7.png"/></div>
+			</section>
+		</div>
+	</div>
+</body>
+</html>
