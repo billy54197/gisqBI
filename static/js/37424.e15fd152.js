@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdatavisual=self.webpackChunkdatavisual||[]).push([[37424],{37424:function(v,t,a){a.r(t),a.d(t,{default:function(){return u}});var e=function(){var d=this,p=d._self._c;return p("div")},r=[],n={name:"portal-home-data",props:["currentWidget"]},l=n,o=a(768141),s=(0,o.Z)(l,e,r,!1,null,"4e967ca5",null),u=s.exports}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdatavisual=self.webpackChunkdatavisual||[]).push([[13018],{413018:function(c,a,t){t.r(a),t.d(a,{default:function(){return l}});var e=function(){var o=this,v=o._self._c;return v("div")},n=[],s={name:"text-show-data"},r=s,u=t(768141),d=(0,u.Z)(r,e,n,!1,null,"25779d73",null),l=d.exports}}]);

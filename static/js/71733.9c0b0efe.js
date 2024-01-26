@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdatavisual=self.webpackChunkdatavisual||[]).push([[71733],{471733:function(c,s,a){a.r(s),a.d(s,{default:function(){return i}});var t=function(){var l=this,v=l._self._c;return v("div")},n=[],e={name:"task-assist-data"},r=e,u=a(768141),d=(0,u.Z)(r,t,n,!1,null,"daf74d7c",null),i=d.exports}}]);

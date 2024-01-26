@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdatavisual=self.webpackChunkdatavisual||[]).push([[88164],{688164:function(c,n,a){a.r(n),a.d(n,{default:function(){return i}});var t=function(){var d=this,o=d._self._c;return o("div")},e=[],r={name:"login-data",props:["currentWidget"]},l=r,s=a(768141),u=(0,s.Z)(l,t,e,!1,null,"7c913a7c",null),i=u.exports}}]);

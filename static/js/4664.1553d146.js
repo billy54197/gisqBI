@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdatavisual=self.webpackChunkdatavisual||[]).push([[4664],{104664:function(v,e,a){a.r(e),a.d(e,{default:function(){return s}});var t=function(){var u=this,c=u._self._c;return c("div")},n=[],r={name:"other-3Dmodel-data"},d=r,l=a(768141),o=(0,l.Z)(d,t,n,!1,null,"cdca61dc",null),s=o.exports}}]);

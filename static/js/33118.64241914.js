@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdatavisual=self.webpackChunkdatavisual||[]).push([[33118],{433118:function(c,s,a){a.r(s),a.d(s,{default:function(){return l}});var n=function(){var v=this,p=v._self._c;return p("div")},t=[],e={name:"task-suspend-data"},u=e,d=a(768141),r=(0,d.Z)(u,n,t,!1,null,"4842b4f9",null),l=r.exports}}]);

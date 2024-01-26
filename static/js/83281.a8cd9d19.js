@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdatavisual=self.webpackChunkdatavisual||[]).push([[83281],{683281:function(d,t,a){a.r(t),a.d(t,{default:function(){return m}});var e=function(){var i=this,l=i._self._c;return l("div")},n=[],r={name:"com-time-data"},s=r,u=a(768141),c=(0,u.Z)(s,e,n,!1,null,"5e1f8734",null),m=c.exports}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdatavisual=self.webpackChunkdatavisual||[]).push([[86203],{86203:function(i,n,a){a.r(n),a.d(n,{default:function(){return l}});var t=function(){var v=this,c=v._self._c;return c("div")},e=[],s={name:"task-end-data"},d=s,r=a(768141),u=(0,r.Z)(d,t,e,!1,null,"16393e18",null),l=u.exports}}]);

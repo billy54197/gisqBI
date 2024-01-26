@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdatavisual=self.webpackChunkdatavisual||[]).push([[67847],{667847:function(o,n,a){a.r(n),a.d(n,{default:function(){return u}});var t=function(){var d=this,l=d._self._c;return l("div")},e=[],i={name:"navigation-map-data"},r=i,v=a(768141),s=(0,v.Z)(r,t,e,!1,null,"05d51426",null),u=s.exports}}]);

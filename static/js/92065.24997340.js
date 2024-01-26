@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdatavisual=self.webpackChunkdatavisual||[]).push([[92065],{192065:function(o,n,a){a.r(n),a.d(n,{default:function(){return d}});var t=function(){var i=this,l=i._self._c;return l("div")},s=[],e={name:"GisCopyData"},r=e,u=a(768141),c=(0,u.Z)(r,t,s,!1,null,"9c8dd0ae",null),d=c.exports}}]);

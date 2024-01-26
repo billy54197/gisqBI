@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdatavisual=self.webpackChunkdatavisual||[]).push([[89250],{289250:function(o,s,a){a.r(s),a.d(s,{default:function(){return i}});var n=function(){var l=this,d=l._self._c;return d("div")},t=[],e={name:"GisCompassData"},r=e,u=a(768141),c=(0,u.Z)(r,n,t,!1,null,"5b65d41c",null),i=c.exports}}]);

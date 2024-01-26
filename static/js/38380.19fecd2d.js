@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdatavisual=self.webpackChunkdatavisual||[]).push([[38380],{638380:function(d,a,e){e.r(a),e.d(a,{default:function(){return u}});var t=function(){var i=this,v=i._self._c;return v("div")},s=[],n={name:"GisSelectData"},l=n,r=e(768141),c=(0,r.Z)(l,t,s,!1,null,"9c0e4fe0",null),u=c.exports}}]);
