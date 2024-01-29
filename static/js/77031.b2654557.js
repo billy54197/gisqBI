@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdatavisual=self.webpackChunkdatavisual||[]).push([[77031],{977031:function(v,r,a){a.r(r),a.d(r,{default:function(){return i}});var t=function(){var l=this,d=l._self._c;return d("div")},n=[],s={name:"form-history-data"},e=s,o=a(768141),u=(0,o.Z)(e,t,n,!1,null,"a7b77a24",null),i=u.exports}}]);

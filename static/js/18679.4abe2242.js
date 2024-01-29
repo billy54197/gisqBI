@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdatavisual=self.webpackChunkdatavisual||[]).push([[18679],{18679:function(v,n,a){a.r(n),a.d(n,{default:function(){return l}});var t=function(){var d=this,o=d._self._c;return o("div")},e=[],i={name:"pagination-data"},r=i,s=a(768141),u=(0,s.Z)(r,t,e,!1,null,"a2620a16",null),l=u.exports}}]);

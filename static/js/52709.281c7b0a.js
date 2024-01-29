@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdatavisual=self.webpackChunkdatavisual||[]).push([[52709],{252709:function(l,e,a){a.r(e),a.d(e,{default:function(){return s}});var n=function(){var u=this,i=u._self._c;return i("div")},t=[],d={name:"com-fixedbox-data"},o=d,r=a(768141),c=(0,r.Z)(o,n,t,!1,null,"a913581c",null),s=c.exports}}]);

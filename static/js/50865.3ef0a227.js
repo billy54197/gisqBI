@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdatavisual=self.webpackChunkdatavisual||[]).push([[50865],{650865:function(v,s,a){a.r(s),a.d(s,{default:function(){return u}});var d=function(){var i=this,l=i._self._c;return l("div")},n=[],r={name:"modify-password-data"},t=r,e=a(768141),o=(0,e.Z)(t,d,n,!1,null,"64e5a013",null),u=o.exports}}]);

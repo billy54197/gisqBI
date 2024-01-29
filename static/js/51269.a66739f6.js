@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdatavisual=self.webpackChunkdatavisual||[]).push([[51269],{951269:function(v,t,a){a.r(t),a.d(t,{default:function(){return i}});var n=function(){var l=this,c=l._self._c;return c("div")},e=[],s={name:"task-wait-data",props:["currentWidget"]},r=s,u=a(768141),d=(0,u.Z)(r,n,e,!1,null,"5e833dcc",null),i=d.exports}}]);

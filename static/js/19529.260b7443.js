@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdatavisual=self.webpackChunkdatavisual||[]).push([[19529],{19529:function(c,a,e){e.r(a),e.d(a,{default:function(){return u}});var n=function(){var i=this,v=i._self._c;return v("div")},t=[],s={name:"GisLegendData"},l=s,r=e(768141),d=(0,r.Z)(l,n,t,!1,null,"15664b7e",null),u=d.exports}}]);
